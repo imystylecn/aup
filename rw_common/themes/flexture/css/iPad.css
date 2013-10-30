@@ -1,0 +1,5 @@
+/* iPad CSS Styles*/
+@media only screen and (device-width: 768px) {
+	#pageTopContent, #mainContentWrapper, #footerWrapper, #extraContainer1 {width: 90%;}
+	.imageStyle {max-width: 100%;height: auto;}
+}

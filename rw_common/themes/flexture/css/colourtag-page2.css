@@ -1,0 +1,116 @@
+body { background-color: #658FEB;color: #000000; }
+
+a, a:link, a:visited { color: #434343; }
+a:hover, a:active { color: #E232FF; }
+
+#titleSlogan .title h1 { color: #FEFEFE;text-shadow: 0 1px 0 #4A4A4A; }
+#titleSlogan .title h1 span, #titleSlogan .slogan h2 { color: #FFFFFF;text-shadow: 0 1px 0 #000000; }
+
+#visitorInteractionPanel { border-color: #FFFFFF; }
+#adjustWidth, #adjustTextSize { color: #FFFFFF;}
+#headerColor1 { background-color: #658FEB; }
+#headerColor2 { background-color: #99CCFF; }
+#headerColor3 { background-color: #274CF6; }
+#iPadCloseButton { color: #FFFFFF;border-color: #FFFFFF; }
+
+.headerImage { border-color: #999999; }
+
+#mainContentWrapper { background-color: #FFFFFF; }
+
+#menu ul a { color: #434343;text-shadow: 0 1px 0 #FFFFFF; }
+#menu ul a:hover, #mainMenuHoverLinkColor { color: #1D4672; }
+.hoverMenuItemBorder { border-bottom-color: #1D4672; }
+#menu ul .current { color: #E232FF; }
+.currentMenuItemBorder, #menu ul .current .hoverMenuItemBorder { border-bottom-color: #E232FF; }
+#menu ul .currentAncestor { color: #97369E; }
+.ancestorMenuItemBorder, #menu ul .currentAncestor .hoverMenuItemBorder { border-bottom-color: #434343; }
+#menu ul li span.menuDivider { color: #1D4672; }
+#menu ul li.ddarrow span.childIndicator { background-color: #E4E4E4; }
+
+/* Color Styles for Main Menu Drop Down, applied when selected in theme options. */
+#menu ul ul {border-left-color: #4C6CB5;background-color: #B7C8ED;}
+#menu ul ul a {color: #0C4672;text-shadow: 0 1px 0 #FFFFFF;}
+#menu ul ul a:hover {color: #FFFFFF;background-color: #7F8DAB;}
+#menu ul ul .current, #menu ul ul .current:hover {color: #FFFFFF;background-color: #5C667C;}
+#menu ul ul .currentAncestor, #menu ul ul .currentAncestor:hover {color: #FFFFFF;background-color: #666666;}
+#menu ul ul li.ddarrow span { border-right-color: #4C6CB5; }
+
+#menu ul ul ul {border-left-color: #FFFFFF;border-bottom-color: #FFFFFF; }
+
+/* #footerWrapper { background-color: %colour_upper_background%; } */
+#footer {color: #CCCCCC;}
+#footer a {color: #FFFFFF;}
+#footer a:hover {color: #FFFFFF;}
+
+#breadcrumbContainer a, #breadcrumbContainer a:hover {color: #E4E4E4; }
+#breadcrumbContainer span { color: #000000; }
+
+#subMenu ul ul {border-left-color: #4C6CB5;background-color: #B7C8ED;}
+#subMenu ul ul a {color: #0C4672;text-shadow: 0 1px 0 #FFFFFF;}
+#subMenu ul ul a:hover {color: #FFFFFF;background-color: #7F8DAB;}
+#subMenu ul .current, #subMenu ul .current:hover {color: #FFFFFF;background-color: #5C667C;}
+#subMenu ul .currentAncestor, #subMenu ul .currentAncestor:hover {color: #FFFFFF;background-color: #666666;}
+#subMenu ul ul li.ddarrow span { border-right-color: #4C6CB5; }
+
+#subMenu ul ul ul {border-left-color: #FFFFFF; }
+
+#extraContainer1 {color: #FFFFFF;}
+#extraContainer1 a {color: #AACCFF;}
+#extraContainer1 a:hover {color: #99CCFF;}
+
+#extraContainer2 {color: #000000;}
+#extraContainer2 a {color: #D8E1DF;}
+#extraContainer2 a:hover {color: #E18CE1;}
+
+#extraContainer3 {color: #000000;}
+#extraContainer3 a {color: #466B9E;}
+#extraContainer3 a:hover {color: #466B9E;}
+
+#extraContainer4 {background-color: #E4E4E4;border-color: #CCCCCC;color: #444444;text-shadow: 0 1px 0 #FFFFFF;}
+#extraContainer4 a {color: #466B9E;}
+#extraContainer4 a:hover {color: #466B9E;}
+
+#extraContainer5 {background-color: #E4E4E4;border-color: #CCCCCC;color: #444444;text-shadow: 0 1px 0 #FFFFFF;}
+#extraContainer5 a {color: #466B9E;}
+#extraContainer5 a:hover {color: #466B9E;}
+
+#ec6Wrapper { background-color: #E4E4E4; }
+#extraContainer6 {color: #333333;text-shadow: 0 1px 0 #C4C4C4;}
+#extraContainer6 a {color: #466B9E;}
+#extraContainer6 a:hover {color: #466B9E;}
+
+#extraContainer7 {color: #E4E4E4;text-shadow: 0 1px 0 #000000;}
+#extraContainer7 a {color: #99CCFF;}
+#extraContainer7 a:hover {color: #99CCFF;}
+
+blockquote, .standout {background-color: #E4E4E4;color: #000000;}
+
+h1.blog-entry-title {border-bottom-color: #CCCCCC;}
+.blog-entry-date, .blog-entry-tags { background-color: #E4E4E4;border-color: #C4C4C4;text-shadow: 0 1px 0 #FFFFFF; }
+
+.form-input-field {border-color: #BBBBBB;background-color: #EEEEEE;color: #666666;}
+
+.thumbnail-caption {color: #999999;}
+.photo-background {background-color: #FFFFFF;color: #000000;}
+.photo-caption {color: #999999;}
+.photo-links a, .photo-links a:hover, .photo-links a:visited {color: #466B9E;}
+
+.movie-thumbnail-caption {color: #999999;}
+.movie-background {background-color: #FFFFFF;}
+.movie-title {color: #000000;}
+
+.filesharing-item {border-left-color: #CCCCCC;}
+.filesharing-item-title {border-bottom-color: #CCCCCC;}
+
+/* Below are iPhone specific color styles */
+@media screen and (max-width: 480px) {
+#mobileMenuTab { background-color: #6699CC !important; }
+#menu ul {border-left-color: #4C6CB5;background-color: #B7C8ED;}
+#menu ul a {color: #0C4672;text-shadow: 0 1px 0 #FFFFFF;}
+#menu ul a:hover {color: #FFFFFF;background-color: #7F8DAB;}
+#menu ul .current, #menu ul .current:hover {color: #FFFFFF;background-color: #5C667C;}
+#menu ul .currentAncestor, #menu ul .currentAncestor:hover {color: #FFFFFF;background-color: #666666;}
+#menu ul li.ddarrow span { border-right-color: #4C6CB5; }
+
+#menu ul ul {border-left-color: #FFFFFF; }
+}

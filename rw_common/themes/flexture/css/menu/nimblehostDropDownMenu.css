@@ -1,0 +1,54 @@
+.shortenedMenuItem { float: none;width: auto;overflow: auto; }
+.menuEllipsis, #subMenu, #subMenu ul .currentAncestor+ul, #subMenu ul .current+ul, #menu ul ul li span.menuDivider { display: none; }
+
+#menu ul ul .currentMenuItemBorder, #menu ul ul .ancestorMenuItemBorder, #menu ul ul .hoverMenuItemBorder { border-color: transparent !important; }
+
+#menu ul li.ddarrow a {  }
+#menu ul li.ddarrow span.childIndicator { float: left;position: relative;top: 0.55em;right: 5px;width: 14px;height: 0.9em;line-height: 2em;background-image: url(../../images/ddChildIndicator.png);background-position: center center;background-repeat: no-repeat;-webkit-border-radius: 2px;-moz-border-radius: 2px;border-radius: 2px; }
+
+#menu ul ul { width: 220px;position: absolute;top: 2em;left: -9999px;z-index: 9999;height: auto;line-height: 2em;padding: 5px 0;-webkit-box-shadow: 0 0 5px black;-moz-box-shadow: 0 0 5px black;box-shadow: 0 0 5px black;border-left-style: solid;border-left-width: 2px; }
+#menu ul ul a { display: block;margin: 0;padding: 0 5px;height: auto;line-height: 2em;width: 210px;float: left; }
+#menu ul ul li {  }
+#menu ul ul li a:hover {  }
+#menu ul ul a:hover {  }
+#menu ul ul .current, #menu ul ul .currentAncestor, #menu ul ul a:hover  { text-shadow: none;font-weight: normal; }
+
+#menu ul ul li.ddarrow a {  }
+#menu ul ul li.ddarrow span.childIndicator { float: none;position:absolute;top:0.3em;right:5px;height:1.4em;width: 5px;border-right-style: solid;border-right-width: 2px;background-image: none;background-color: transparent;-webkit-border-radius: 0;-moz-border-radius: 0;border-radius: 0; }
+
+/* Drop Down Menu Items */
+/* Third Level*/
+#menu ul ul ul { top: 0;width: 213px;margin: 5px 0 5px 5px;padding: 0;border-left-style: solid;border-left-width: 2px;/* border-bottom-style: solid;border-bottom-width: 2px; */position: relative;-webkit-box-shadow: none;-moz-box-shadow: none;box-shadow: none;}
+#menu ul ul ul a { width: 203px;margin: 0;padding-left: 5px;display: block; }
+
+/* Fourth Level*/
+#menu ul ul ul ul { width: 206px; }
+#menu ul ul ul ul a { width: 196px; }
+
+/* Fifth Level*/
+#menu ul ul ul ul ul { width: 199px; }
+#menu ul ul ul ul ul a { width: 189px; }
+
+/* Sixth Level*/
+#menu ul ul ul ul ul ul { width: 192px; }
+#menu ul ul ul ul ul ul a { width: 182px; }
+
+/* Seventh Level*/
+#menu ul ul ul ul ul ul ul { width: 185px; }
+#menu ul ul ul ul ul ul ul a { width: 175px; }
+
+/* Eight Level*/
+#menu ul ul ul ul ul ul ul ul { width: 178px; }
+#menu ul ul ul ul ul ul ul ul a { width: 168px; }
+
+/* Ninth Level*/
+#menu ul ul ul ul ul ul ul ul ul { width: 171px; }
+#menu ul ul ul ul ul ul ul ul ul a { width: 161px; }
+
+/* Tenth Level*/
+#menu ul ul ul ul ul ul ul ul ul ul { width: 164px; }
+#menu ul ul ul ul ul ul ul ul ul ul a { width: 154px; }
+
+/* Show on Hover */
+#menu ul li:hover ul {left: 18px;}
+#menu ul li:hover ul ul {left: 0;}

@@ -1,0 +1,18 @@
+/* Large screen displays & iPad in Landscape */
+@media screen and (max-width: 1030px) {
+	#pageTopContent, #mainContentWrapper, #footerWrapper, #extraContainer1, #pageTopContent[style], #mainContentWrapper[style], #footerWrapper[style], #extraContainer1[style] {width: 86% !important;}
+	.imageStyle {max-width: 100%;height: auto;}
+	#visitorInteractionPanel #adjustWidth { display: none; }
+}
+
+/* Medium screen displays & iPad in Portrait */
+@media screen and (max-width: 770px) {
+	#pageTopContent, #mainContentWrapper, #footerWrapper, #extraContainer1, #pageTopContent[style], #mainContentWrapper[style], #footerWrapper[style], #extraContainer1[style] {width: 92% !important;}
+	.imageStyle {max-width: 100%;height: auto;}
+	#visitorInteractionPanel #adjustWidth { display: none; }
+}
+
+/* Small screen Styles */
+@media screen and (max-width: 480px) {
+	@import url("iPhone.css");
+}

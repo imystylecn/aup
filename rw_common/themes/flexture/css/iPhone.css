@@ -1,0 +1,95 @@
+/* iPhone and other Webkit-based mobile browsers CSS Styles*/
+@media screen and (max-width: 480px) {
+
+html {-webkit-text-size-adjust:none;}
+
+#logo img, .imageStyle {max-width: 100%;height: auto;}
+#logo { padding-top: 0; position: relative; right: 40px; }
+
+#pageTopContent, #mainContentWrapper, #footerWrapper, #extraContainer1, #pageTopContent[style], #mainContentWrapper[style], #footerWrapper[style], #extraContainer1[style] { width: auto !important; }
+
+#visitorInteractionPanel, #titleSlogan .title h1 span, #subMenu, #subMenu ul .currentAncestor+ul, #subMenu ul .current+ul, #extraContainer1 { display: none; }
+#contentContainer, #sidebarContainer, #menu ul { float: none;width: auto; }
+#pageTopContent { padding: 0 5px;min-height: 60px; }
+#mainContent { position:relative;padding: 10px; }
+#mainContentWrapper { margin: 0;padding: 0;-webkit-border-radius: 0; }
+#footerWrapper { margin: 0;padding: 20px 5px 0 5px;background: transparent url(../images/upperShadow.png) top center repeat-x; }
+
+#titleSlogan { padding-bottom: 10px; }
+#titleSlogan .title h1 { font-size: 30px; }
+#titleSlogan .slogan { display: block; }
+#titleSlogan .slogan h2 { font-size: 14px; }
+
+#extraContainer5 { margin-bottom: 5px; }
+#ec6Wrapper { -webkit-border-radius: 0; }
+#extraContainer6 { padding-left: 10px;padding-right: 10px; }
+
+.form-input-field { width: 90%; }
+
+/* Override Accordion & Hover Desktop Menu Styles */
+
+#mobileMenuTab { display: block;position: absolute;right: 5px;top: 5px;width: 30px;height: 50px;background: transparent url(../images/mobileMenuTab.png) 0 -50px;cursor: pointer; }
+
+.shortenedMenuItem { float: none;width: auto;overflow: auto; }
+.menuEllipsis { display: none; }
+
+.currentMenuItemBorder, .currentMenuItemBorder[style], .ancestorMenuItemBorder, .ancestorMenuItemBorder[style], .hoverMenuItemBorder, .hoverMenuItemBorder[style]  { display: none !important; }
+
+#menu { display: none;margin: 0;padding: 0;height: auto;border-radius: none;-webkit-border-radius: none;position:absolute;width:98%;left:1%;top:0; }
+
+#menu ul { float: none;margin: 0;padding: 0;height: auto;position:relative;z-index:100; }
+#menu ul li { float: none; }
+#menu ul a { margin: 0;padding: 0;display: block;float: none;height: auto;line-height: normal;position: relative; }
+#menu ul .current, #menu ul .currentAncestor {  }
+#menu ul a:hover {  }
+#menu ul ul, #menu ul ul[style] { width: auto;position: relative;top: auto;left: auto !important; }
+#menu ul ul a { width: auto; }
+#menu ul ul, #menu ul li ul, #menu ul li a ul { display: block; }
+
+#menu ul li span.menuDivider { display: none; }
+
+/* Override Drop Down Menu Desktop Styles */
+
+#menu ul li.ddarrow span.childIndicator { display: none; }
+
+#menu ul ul { width: auto;position: relative;top: auto;left: auto;height: auto;line-height: normal;padding: 0;-webkit-box-shadow: none;-moz-box-shadow: none;box-shadow: none; }
+#menu ul ul a { display: block;margin: 0;padding: 0 5px;height: auto;line-height: 2em;width: auto;float: none; }
+#menu ul ul li {  }
+#menu ul ul li a:hover {  }
+#menu ul ul a:hover {  }
+#menu ul ul .current, #menu ul ul .currentAncestor, #menu ul ul a:hover  { text-shadow: none;font-weight: normal; }
+
+#menu ul ul li.ddarrow a {  }
+#menu ul ul li.ddarrow span.childIndicator { display: none; }
+
+/* Drop Down Menu Items */
+/* Third Level*/
+#menu ul ul ul { top: auto;left: auto;width: auto;margin: 5px 0 5px 10px;padding: 0;position: relative;}
+#menu ul ul ul a { width: auto;margin: 0;padding-left: 10px;display: block; }
+
+/* Fourth Level*/
+#menu ul ul ul ul, #menu ul ul ul ul a, #menu ul ul ul ul ul, #menu ul ul ul ul ul a, #menu ul ul ul ul ul ul, #menu ul ul ul ul ul ul a, #menu ul ul ul ul ul ul ul, #menu ul ul ul ul ul ul ul a, #menu ul ul ul ul ul ul ul ul, #menu ul ul ul ul ul ul ul ul a, #menu ul ul ul ul ul ul ul ul ul, #menu ul ul ul ul ul ul ul ul ul a, #menu ul ul ul ul ul ul ul ul ul ul, #menu ul ul ul ul ul ul ul ul ul ul a { width: auto; }
+
+
+/* iPhone Menu Styles */
+#menu { display: none; }
+#menu ul { padding-top: 5px;padding-bottom: 5px;-webkit-box-shadow: 0 0 5px black;-moz-box-shadow: 0 0 5px black;box-shadow: 0 0 5px black; }
+#menu ul a { display: block;margin: 0;padding: 0 5px 0 10px; line-height: 2em; }
+#menu ul li { position: relative; }
+#menu ul li a:hover {  }
+#menu ul a:hover {  }
+#menu ul .current, #menu ul .currentAncestor, #menu ul a:hover  { text-shadow: none; }
+
+#menu ul li.ddarrow a { padding-right: 10px; }
+#menu ul li.ddarrow span {position:absolute;top:0.3em;right:5px;height:1.4em;width: 10px;border-right-style: solid;border-right-width: 2px;}
+
+#menu ul ul { margin: 5px 0 5px 10px;padding: 0;border-left-style: solid;border-left-width: 2px;position: relative;display: none;-webkit-box-shadow: none;-moz-box-shadow: none;box-shadow: none;}
+
+#menu ul ul ul {  }
+
+/* Drop Down Menu Items */
+/* Second Level*/
+#menu ul ul a { margin: 0;padding-left: 5px;display: block; }
+#menu ul ul ul a:hover { }
+
+}

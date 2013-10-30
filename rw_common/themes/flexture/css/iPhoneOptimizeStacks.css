@@ -1,0 +1,3 @@
+@media only screen and (max-device-width: 480px) {
+.stacks_div, .stacks_left, .stacks_right, .stacks_middle, .stacks_float_left, .stacks_float_right { float: none !important;width: auto !important; }
+}
